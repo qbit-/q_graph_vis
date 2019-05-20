@@ -1,0 +1,5 @@
+node_modules/**
+*/node_modules/**
+**/__pycache/**
+**/graph.p
+server/__pycache__ server/src/__pycache__

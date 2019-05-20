@@ -1,0 +1,26 @@
+{
+  "name": "fnCoffee",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Danil Lykov",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack-dev-server --mode development",
+    "build": "webpack --mode production"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "coffeescript": "^2.3.2",
+    "dexie": "^2.0.4",
+    "dotenv": "^6.0.0",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "react-dom-factories": "^1.0.2",
+    "webpack": "^4.20.2",
+    "webpack-dev-server": "^3.1.9"
+  },
+  "devDependencies": {
+    "coffee-loader": "^0.9.0",
+    "webpack-cli": "^3.1.2"
+  }
+}
